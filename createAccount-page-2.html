@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Create an Account</title>
+<style>
+body {
+  font-family: sans-serif;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<h1>Create an Account</h1>
+
+<form action="createAccount-page-3.html">
+
+  <!-- <label for="i_am">I am:</label>
+  <input type="text" id="i_am" name="i_am"> -->
+
+  <label for="i_am">I am:</label>
+  <select id="i_am" name="i_am">
+    <option value="man">Man</option>
+    <option value="woman">Woman</option>
+    <option value="couple">Couple</option>
+  </select>
+
+  <label for="looking_for">Looking for:</label>
+  <select id="looking_for" name="looking_for">
+    <option value="man">Man</option>
+    <option value="woman">Woman</option>
+    <option value="couple">Couple</option>
+  </select>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
